@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+   font-family: Impact;
+   
+}
+
+#headline{
+    font-size: 50px;
+    color: rgb(20, 155, 146); /*  spør patrik  */
+    text-shadow: 10px 0px 10px blue;
+    filter: blur(1px);
+
+}
+
+.first{
+    background-image: url("bilde\ av\ haugesund.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 20px 0px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+
+
+.topp{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    background-size: cover;
+    color: rgb(9, 104, 187);
+    margin: 0%;
+
+}
+
+.second{
+    background-color: aquamarine;
+    background-size: cover;
+    height: 400px;
+    margin: 0px 0px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flex1, .flex2, .flex3{
+    margin: 50px;
+    display: flex;
+    background-size: 100px;
+    height: 200px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+.imgg{
+    border-radius: 20%;
+}
+
+
+
+.meg{
+    border-radius: 5%;
+    border: solid rgb(26, 20, 20) 5px;
+}
+
+
+
+
+
+
+.third{
+    
+    background-color: lightslategray;
+    background-size: cover;
+    margin:100px 500px ;
+    width:500px;
+
+    height: 300px;
+    border-radius: 10%;
+    border: solid rgb(26, 20, 20) 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
